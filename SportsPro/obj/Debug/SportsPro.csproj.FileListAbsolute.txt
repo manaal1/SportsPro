@@ -1,0 +1,6 @@
+E:\LP\HiredJob\manaal_ASP.NET\SportsPro\SportsPro\bin\SportsPro.dll.config
+E:\LP\HiredJob\manaal_ASP.NET\SportsPro\SportsPro\bin\SportsPro.dll
+E:\LP\HiredJob\manaal_ASP.NET\SportsPro\SportsPro\bin\SportsPro.pdb
+E:\LP\HiredJob\manaal_ASP.NET\SportsPro\SportsPro\obj\Debug\SportsPro.dll
+E:\LP\HiredJob\manaal_ASP.NET\SportsPro\SportsPro\obj\Debug\SportsPro.pdb
+E:\LP\HiredJob\manaal_ASP.NET\SportsPro\SportsPro\obj\Debug\SportsPro.csprojResolveAssemblyReference.cache

@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="SportsPro.Master" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>SportsPro</title>
+    <meta name="description" content="A description of your website" />
+    <meta name="keywords" content="keyword1, keyword2, keyword3" />
+    <link href="App_Themes/Theme1/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="mainDiv">
+
+            <div id="headerDiv">
+                <div class="headerBanner">                    
+                    <asp:Label ID="Label1" runat="server" Text="SportsPro" Font-Bold="True" Font-Italic="False" Font-Names="Copperplate Gothic Bold" Font-Size="30pt" ForeColor="White"></asp:Label><br />
+                    <asp:Label ID="Label2" runat="server" Text="Sports management software for the sports enthusiast" Font-Names="High Tower Text" Font-Size="12pt" ForeColor="White"></asp:Label>                    
+                </div>
+            </div>
+
+            <div class="navigationDiv">
+            </div>
+
+            <div id="contentDiv">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <!--start footer from here-->
+            <div id="footer">
+                &copy; 2016 - Assignment1 - SportsPro. Design by Esmail Manaal.
+            </div>
+            <!--/. end footer from here-->
+        </div>
+    </form>
+</body>
+</html>
